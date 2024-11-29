@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #0078D7;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+            .header h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+            .content p {
+                font-size: 16px;
+                margin: 10px 0;
+                line-height: 1.5;
+            }
+
+        .footer {
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h1>Hello, [toEmail]!</h1>
+        </div>
+        <div class="content">
+            <p>This is a message from <strong>Seid's Azure Function</strong>.</p>
+            <p>Your data is securely stored in <strong>Azure Storage</strong>.</p>
+            <p>We appreciate you using our service. Let us know if you need any assistance!</p>
+            <p>Best Regards,<br>Seid's Team</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Seid's Azure Function. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
